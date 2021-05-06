@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #333333;
+    background-image: url(img/resim5.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;   
+ 
+}
+#hizala{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+}
+#solKisim{
+    margin-top: 40px;
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+#solKisim a{
+    color: #C8BAB6;
+    text-decoration:none;
+    font-size: 16px;
+    padding-top: 10px;
+}
+#solKisim h1{
+    padding: 0;
+    margin: 0;
+}
+#solKisim p{
+    color: #C8BAB6;
+    padding: 0;
+    margin: 0;
+    font-size:14px ;
+    text-align: center;
+}
+#sagKisim{
+    width: 70%;
+    height: 100px;
+    float: left;
+}
+nav{
+    float: right;
+    padding-top: 50px;
+}
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    background-color: #232323;
+    padding: 10px 35px;
+    float: left;
+}
+nav ul li a{
+    color: #C8BAB6;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+main{
+    width: 100%;
+    height: 1000px;
+}
+#ikinciHizala{
+    width: 75%;
+    height: 1000px;
+    margin: auto;
+    padding:25px 0;
+    
+}
+#sectionBir{
+    width: 100%;
+    height: 425px;
+    background-color: #333333;
+    background-image: url(img/resim4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 25px;
+}
+#sectionBir h1{
+    font-size: 40px;
+    color:white;
+    text-align: center;
+}
+#sectionİki{
+    width: 100%;
+    height: 400px;
+    padding-top: 35px;
+    margin-bottom: 100px;
+}
+#box{
+    border: 1px solid black;
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-right: 50px;
+}
+.cerceve{
+    width: 100%;
+    height: 180px;
+    padding: 2px;
+}
+.resim{
+    width: 100%;
+    height: 172px;
+}
+#html{
+    width: 100%;
+    height: 100%;
+}
+#box h4{
+    padding: 0;
+    margin: 0;
+    margin-top: 12px;
+    color: white;
+}
+#box p{
+    color: white;
+}
+.linkAyar{
+    float: right;
+    color: white;
+}
+#sectionUc{
+    width: 100%;
+    height: 100px;
+    display:inline-flex;
+    float: center;
+    margin-top: 100px;
+}
+#ikon1{
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 60px;
+    height: 60px;
+    float: right;
+    position: absolute;
+    right: 200px;
+    bottom: -570px;
+}
+#ikon2{
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 70px;
+    height: 70px;
+    float: right;
+    position: absolute;
+    right: 295px;
+    bottom: -575px;
+}
+#ikon1 :hover{
+    content: url(img/instagramHover.png);
+
+}
+#ikon2 :hover{
+    content: url(img/facebookHover.png);
+
+}
+
